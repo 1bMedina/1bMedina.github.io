@@ -19,17 +19,20 @@
                 <a href="#contact-resume">Contact Me</a>
             </il>
         </nav>
-    <div id="intro">
-        <p>Hi I'm</p>
-        <p2>Blu Medina</p2>
-        <button id="identityButton">Who else am I?</button>
-        <button id="home-projects-button"><a href="#projects">Projects</a></button>
-    </div>
-    <div id="info-card">
-        <img src="media/BluMedina.jpg" alt="portrait of Blu Medina"> 
-        <p>Detail-oriented computer science student seeking an internship to develop technical skills, contribute to meaningful projects, and grow within a fast-paced development environment while learning from experienced mentors. </p>
-        <button id="contact-button"><a href="#contact-resume">Contact Me</a></button>
-        
+    <div id="home-content-wrapper">
+        <div id="intro">
+            <p>Hi I'm</p>
+            <p2>Blu Medina</p2>
+            <br>
+            <button id="identityButton">Who else am I?</button>
+            <button id="home-projects-button"><a href="#projects">Projects</a></button>
+        </div>
+        <div id="info-card">
+            <img src="media/BluMedina.jpg" alt="portrait of Blu Medina"> 
+            <p>Detail-oriented computer science student seeking an internship to develop technical skills, contribute to meaningful projects, and grow within a fast-paced development environment while learning from experienced mentors. </p>
+            <button id="contact-button"><a href="#contact-resume">Contact Me</a></button>
+            
+        </div>
     </div>
 
     </div>
@@ -53,7 +56,7 @@
             </div>
             <div id="card3">
                 <img src="media/PyCon_2024.jpeg" alt="PyCon_2024">
-                <p>PyCon Blog & App</p>
+                <p>PyCon Blog & NASA App</p>
                 <p2>Collaborated with a team to design and develop a Python based application which transformed thousands of lunar terrain data points into interactive 3D visualizations using the Ursina Game Engine.</p2>
                 <button id="viewBtn"><a href="https://olivejeng.github.io/PyConAdventures/index.html">View Blog</a></button>
                 <button id="viewBtn1"><a href="https://github.com/1bMedina/NASA_ADC">View Project</a></button>
@@ -63,10 +66,14 @@
                 <p>Javascript Love Bear!</p>
                 <p2>Designed and developed an interactive JavaScript game featuring yes-or-no questions—when users click 'Yes,' a new image appears; when they click 'No,' the button playfully evades their cursor.</p2>
                 <button id="viewBtn"><a href="https://1bmedina.github.io/website/personal/index.html">View Website</a></button>
-                <button id="viewBtn1"><a href="#">View Code</a></button>
+                <button id="viewBtn1"><a href="https://github.com/1bMedina/website/tree/main/personal">View Code</a></button>
             </div>
             <div id="card5">
-
+                <!-- <img src="media/loveu_bubble.jpg" alt="PyCon_2024"> -->
+                <p>Coming Soon!</p>
+                <p2>Helped build and design multiple Django web apps to help and benefit my community!</p2>
+                <!-- <button id="viewBtn"><a href="https://1bmedina.github.io/website/personal/index.html">View Website</a></button>
+                <button id="viewBtn1"><a href="https://github.com/1bMedina/website/tree/main/personal">View Code</a></button> -->
             </div>
             <button id="next"><p>&rarr;</p></button>
             <button id="prev"><p>&larr;</p></button>
@@ -74,7 +81,77 @@
     </div>
 
     <div id="experience">
-
+        <div id="experience-content-wrapper">
+            <div id="header-experience">
+                <p>My Experience</p>
+                <p2>This is some of my experience, in school and outside of school!</p2>
+            </div>
+        <div id="body-content-wrapper">
+            <div id="body-school">
+                <div class="activity" id="activity1">
+                    <div class="info">
+                        <p>NASA ADC Club</p>
+                        <p2>Led and founded a diverse group of majority women to accomplish a goal of visualizing lunar terrain data using python.</p2>
+                        <button class="revealBtn">Read More</button>
+                        <div class="extra-info">
+                            <p2> We built a app for a 3D visualization of  thousands of lunar terrain data points (latitude/longitude). We then converted data into Cartesian coordinates, transforming them into PNG formats, loading them into Ursina Game Engine for dynamic rendering. Additionally, we fundraised over $4,000 to support club activities and to fund a trip to PyCon US 2024. Lastly, we were given the opportunity to presented our application at a national python conference in Pittsburgh, PyCon 2024.</p2>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity" id="activity2">
+                    <div class="info">
+                        <p>Django Girls</p>
+                        <p2>Led and founded an all women tech organization, developing Django projects and networking with industry leaders.</p2>
+                        </p2>
+                        <button class="revealBtn">Read More</button>
+                        <div class="extra-info">
+                            <p2> Taught Django to high school girls, fostering their interest in web development.
+                                Went on to secure a $7,000 grant from Amazon to support club activities and fund a trip to the 2025 PyCon US Conference.
+                                We developed a web application for spa reservations for the school's cosmetology class.
+                                Lastly, created a web application for the "Off The Pike" food truck, streamlining online order placement.
+                            </p2>
+                        </div>
+                    </div>
+                </div>
+                <div class="activity" id="activity3">
+                    <div class="info">
+                        <p>Kits For Kids</p>
+                        <p2>Handled expenses from fundraising, donations, and purchases, while working directly with the schools treasure and other activity coordinators. </p2>
+                        <button class="revealBtn">Read More</button>
+                        <div class="extra-info">
+                            <p2> Helped plan and participated in multiple fundraisers, as well as organized the funds after to purchase toys. Additionally, we donated over $400 of toys to the oncology unit at the National Children's Hospital in D.C.</p2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="body-work">
+                <div class="work" id="work1">
+                    <div class="info">
+                        <p>NOVA Web Development</p>
+                        <p2>Developer within a worker-owned tech co-op offering human-centered, open-source web development for nonprofits, communities, and local businesses.</p2>
+                        <button class="revealBtn">Read More</button>
+                        <div class="extra-info">
+                            <p2> I have collaborated closely with Liberian web developers to connect them with clients and support their efforts to reach a sustainable income level, empowering them to earn a fair wage through meaningful web development work.
+                                Additionally, I developed websites/web apps using Django, HTML, CSS, and JavaScript to deliver engaging and functional web experiences.
+                                </p2>
+                        </div>
+                    </div>
+                </div>
+                <div class="work" id="work2">
+                    <div class="info">
+                        <p>Haute Dogs and Fries</p>
+                        <p2>Cashier at a women-owned local restaurant, blending warm service with support for community-focused small business. </p2>
+                        <button class="revealBtn">Read More</button>
+                        <div class="extra-info">
+                            <p2> 
+                                Greeted customers in a friendly manner when they entered the restaurant, took on cleaning duties, made food for customers, and handled finances. 
+                            </p2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
     <div id="about-me">
 

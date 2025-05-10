@@ -171,3 +171,27 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeCarousel();
 });
 
+document.querySelectorAll('.revealBtn').forEach(button => {
+    button.addEventListener('click', () => {
+        const activity = button.closest('.activity');
+        activity.classList.toggle('expanded');
+
+        if (activity.classList.contains('expanded')) {
+            button.textContent = 'Read Less';
+        } else {
+            button.textContent = 'Read More';
+        }
+    });
+});
+document.querySelectorAll('.revealBtn').forEach(button => {
+    button.addEventListener('click', () => {
+        const work = button.closest('.work');
+        work.classList.toggle('expanded');
+
+        if (work.classList.contains('expanded')) {
+            button.textContent = 'Read Less';
+        } else {
+            button.textContent = 'Read More';
+        }
+    });
+});
