@@ -195,3 +195,19 @@ document.querySelectorAll('.revealBtn').forEach(button => {
         }
     });
 });
+
+    // Show notification when page loads
+window.onload = function() {
+    const notification = document.getElementById('siteNotification');
+    notification.style.display = 'block';
+        
+     // Auto-hide after 5 seconds
+    setTimeout(function() {
+        notification.style.display = 'none';
+    }, 30000);
+};
+    
+// Function to close notification manually
+function closeNotification() {
+    document.getElementById('siteNotification').style.display = 'none';
+}
